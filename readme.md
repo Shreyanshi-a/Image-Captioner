@@ -12,22 +12,6 @@ The Model was trained with a frozen CLIP, a fully trained Mapping Module (5-6x T
 
 The training process was carried out using the [Kaggle](https://www.kaggle.com/) P100 GPU.
 
-### Model Versions
-
-> **Small** - [Download](https://drive.google.com/file/d/1pSQruQyg8KJq6VmzhMLFbT_VaHJMdlWF/view?usp=sharing)
->
-> - Text Model - GPT-2 Small - 124M parameters
-> - Mapping Module - 6x Transformer Encoder Layers
-> - CLIP Base - Patch 32 model
-> - 256M Parameters
-
-> **Large** - [Download](https://drive.google.com/file/d/1Gh32arzhW06C1ZJyzcJSSfdJDi3RgWoG/view?usp=sharing)
->
-> - Text Model - GPT-2 Medium - 355M parameters
-> - Mapping Module - 5x Transformer Encoder Layers
-> - CLIP Large - Patch 14 model
-> - 736M Parameters
-
 ## Example results
 
 ![Example1](./examples/23012796-RS.jpg)
