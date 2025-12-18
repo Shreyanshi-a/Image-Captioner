@@ -34,38 +34,3 @@ The training process was carried out using the [Kaggle](https://www.kaggle.com/)
 ![Example2](./examples/36979-RS.jpg)
 ![Example3](./examples/89407459-RL.jpg)
 
-## Usage
-
-Clone repository using:
-
-```bash
-git clone https://github.com/jmisilo/clip-gpt-captioning
-
-cd clip-gpt-captioning
-```
-
-Create environment and install requirements:
-
-```bash
-python -m venv venv
-# for windows
-.\venv\Scripts\activate
-# for linux/mac
-source venv/bin/activate
-
-pip install -r requirements.txt
-```
-
-And run prediction:
-
-```bash
-python .\src\predict.py -I <image_path> -S <model_size [S/L]> -C <checkpoint_name>
-```
-
-### References:
-
-- [OpenAI](https://openai.com/)
-- [CLIP](https://openai.com/blog/clip/)
-- [GPT-2](https://openai.com/blog/better-language-Models/)
-- [ClipCap; Mokady, Ron and Hertz, Amir and Bermano, Amit H](https://arxiv.org/abs/2111.09734)
-- [HuggingFace](https://huggingface.co/)
